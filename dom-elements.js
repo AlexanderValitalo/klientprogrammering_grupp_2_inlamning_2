@@ -15,4 +15,6 @@ const DOM_ELEMENT = {
 
   //QUIZ RESULT
   quizResult: document.getElementById("quiz-result"),
+  quizQuestionResult: document.getElementById("quiz-question-result"),
+  startPageBtn: document.getElementById("start-page-btn"),
 };
