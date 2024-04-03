@@ -8,6 +8,7 @@
   </head>
   <body>
     <h1>Futurama Quiz</h1>
+    <!--Start page-->
     <div id="start-page" style="display: flex">
       <div id="stat-div">
         <p id="total-questions"></p>
@@ -17,13 +18,17 @@
       <button id="start-quiz-btn">Start Quiz</button>
     </div>
 
+    <!--Quiz page-->
     <div class="quiz-container" id="quiz-container" style="display: none">
       <h2 id="quiz-question"></h2>
       <ul id="quiz-options"></ul>
-      <button id="next-question-btn" style="display: none">Next Question</button>
+      <button id="next-question-btn" style="display: none">
+        Next Question
+      </button>
       <button id="quit-quiz-btn">End Quiz</button>
     </div>
 
+    <!--Results page-->
     <div id="quiz-result" style="display: none">
       <p id="quiz-question-result"></p>
       <button id="start-page-btn">Go back to start</button>
